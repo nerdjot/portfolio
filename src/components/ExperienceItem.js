@@ -1,21 +1,23 @@
 import React from 'react';
-const ExperienceItem = () =>{
+import WorkInfo from './WorkInfo';
+
+const ExperienceItem = ({experienceItem}) =>{
+    const workInfo = experienceItem['work'];
+    const workList = workInfo.map((workItem) =>
+        <WorkInfo workItem = {workItem} />);
     return (
         <div>
             <div>
-                Seclore Technology
+                <div>
+                   {experienceItem['company']}
+                </div>
+                <div>
+                    {experienceItem['location']}
+                </div>
             </div>
+
             <div>
-                location: Mumbai
-            </div>
-            <div>
-                Product Engineer (Windows C++ developer)
-            </div>
-            <div>
-                July 2020 - now
-            </div>
-            <div>
-                About role...
+                {workList}
             </div>
         </div>
     ); 

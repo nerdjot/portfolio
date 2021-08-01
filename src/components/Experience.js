@@ -1,9 +1,14 @@
 import React from 'react';
 import ExperienceItem from './ExperienceItem';
-const Experience = () =>{
+const Experience = (props) =>{
+    const experience = props.experience;
+    const experienceList = experience.map((experienceItem) => 
+        <ExperienceItem key = {experienceItem['id']} experienceItem = {experienceItem} /> );
     return (
         <div>
-            Experience
+            {"<experience>"}
+            {experienceList}
+            {"</experience>"}
         </div>
     ); 
 }

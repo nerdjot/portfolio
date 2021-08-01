@@ -4,12 +4,15 @@ import Experience from './components/Experience';
 import Projects from './components/Projects';
 import About from './components/About';
 import Contact from './components/Contact';
+import Data from './components/Data';
+ 
+const localData = Data;
 
 function App() {
   return (
     <div className="App">
-      <Intro />
-      <Experience />
+      <Intro intro = {localData['intro']} />
+      <Experience experience = {localData['experience']} />
       <Projects />
       <About />
       <Contact />
