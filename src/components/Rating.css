@@ -1,0 +1,10 @@
+.rating-character-activate{
+    color: #EC521E;
+}
+.rating-character-inactivate{
+    color: gray;
+}
+.rating-comp{
+    display: flex;
+    justify-content: center;
+}

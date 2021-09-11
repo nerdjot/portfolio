@@ -7,12 +7,12 @@ const Data = {
             'work' : [{
                     'id' : 1,
                     'role' : 'Product Engineer (Windows C++ developer)',
-                    'duration' : 'January 2021 - now',
+                    'duration' : 'Jan 2021 - now',
                     'about': "Nice job aye!"
                 }, {
                     'id' : 2,
                     'role' : 'Trainee Product Engineer (Windows C++ developer)',
-                    'duration' : 'July 2020 - Decemeber 2020',
+                    'duration' : 'Jul 2020 - Dec 2020',
                     'about': "Nice job aye!"
                 }
             ]
@@ -23,12 +23,67 @@ const Data = {
             'work' : [{
                 'id' : 1,
                 'role' : 'Software Developer Intern (React native)',
-                'duration' : 'July 2019 - August 2019',
+                'duration' : 'Jul 2019 - Aug 2019',
                 'about': "Nice job aye!"
             }
         ]
         }
-    ]
+    ],
+    'projects': [{
+        'id' : 1,
+        'name' : 'Visual Sorting',
+        'company' : 'Personal',
+        'duration' : 'Jan 2021 - now',
+        'technology' : 'React',
+        'description': "Nice job aye!"
+    }, {
+        'id' : 2,
+        'name' : 'Fake News Detector Telegram Bot',
+        'company' : 'Personal',
+        'duration' : 'Jul 2020 - Dec 2020',
+        'technology' : 'Python Flask, Telegram API',
+        'description': "Nice job aye!"
+    }
+    ],
+    'skills':[{
+        'id': 1,
+        'name':'C++',
+        'experience': '2 years',
+        'rating':4,
+        'outOf':5,
+        'projects':[{
+            'name':'Spreadsheet App',
+            'link': 'https://www.google.com/'
+        },{
+            'name': 'Modern IPMSG',
+            'link': 'https://www.google.com/'
+        },{
+            'name':'Spreadsheet App',
+            'link': 'https://www.google.com/'
+        },{
+            'name': 'Modern IPMSG',
+            'link': 'https://www.google.com/'
+        }]
+    },{
+        'id': 1,
+        'name':'Python',
+        'experience': '3 years',
+        'rating':4.5,
+        'outOf':5,
+        'projects':[{
+            'name':'Spreadsheet App',
+            'link': 'https://www.google.com/'
+        },{
+            'name': 'Modern IPMSG',
+            'link': 'https://www.google.com/'
+        },{
+            'name':'Spreadsheet App',
+            'link': 'https://www.google.com/'
+        },{
+            'name': 'Modern IPMSG',
+            'link': 'https://www.google.com/'
+        }]
+    }]
 }
 
 export default Data;

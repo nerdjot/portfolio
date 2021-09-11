@@ -1,0 +1,47 @@
+.project-item{
+    width: 80%;
+    margin: auto;
+    /*border-color: rgb(232,115,198);
+    border-width: 1%;
+    border-style: solid;*/
+    padding: 1%;
+    padding-bottom: 0.5%;
+    margin-bottom: 1%;
+}
+
+.project-info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.project-name{
+    font-size: 3vw;
+    color: #EC521E;
+}
+
+.project-company{
+    /*color: rgb(232,115,198);*/
+    color: #EC521E;
+    font-size: 1.6vw;
+}
+
+.project-duration{
+    /*color: rgb(232,115,198);*/
+    color: #EC521E;
+    font-size: 1.6vw;
+}
+
+.project-extra-info{
+    margin: 0.5%;
+    margin-bottom: 1.5%;;
+}
+
+.project-tech{
+    font-size: 2vw;
+}
+
+.project-desc{
+    padding-left: 1%;
+    font-size: 1.6vw;
+    /*color: rgb(232,115,198);*/
+}

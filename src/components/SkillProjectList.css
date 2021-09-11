@@ -1,0 +1,21 @@
+.skill-project-list{
+    color: #EC521E;
+
+    font-size: 2vw;
+    width: 50%;
+    text-align: right;
+    
+    word-break: break-word;
+    overflow-wrap: break-word;
+    display:inline;
+    }
+a:link{
+    color: #EC521E;
+    text-decoration: none;
+}
+a:visited{
+    color: #EC521E;
+}
+a:hover{
+    color:white;
+}

@@ -1,0 +1,72 @@
+.experience-page{
+    height: 100vh;
+}
+
+.experience-item{
+    width: 80%;
+    margin: auto;
+    /*border-color: rgb(232,115,198);
+    border-width: 1%;
+    border-style: solid;*/
+    padding: 1%;
+    padding-bottom: 0.5%;
+    margin-bottom: 1%;
+}
+
+.colors{
+    color: #EC5654;
+    color: rgb(128,233,124);
+    color: rgb(238,241,140);
+    color: rgb(189,147,249);
+    color: rgb(232,115,198);
+    color: rgb(139,233,253);
+}
+
+
+#section-heading{
+    /*color: rgb(232,115,198);*/
+}
+
+.company-info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.company-name{
+    font-size: 3vw;
+    color: #EC521E;
+}
+
+.company-location{
+    /*color: rgb(232,115,198);*/
+    color: #EC521E;
+    font-size: 1.6vw;
+}
+
+
+.work-info{
+    margin: 0.5%;
+    margin-bottom: 1.5%;;
+}
+
+.role-container{
+    display:flex;
+    justify-content: space-between;
+    padding: 1%;
+}
+
+.role-name{
+    font-size: 2vw;
+}
+
+.role-duration{
+    font-size: 1.6vw;
+    /*color: rgb(232,115,198);*/
+    color: #EC521E;
+}
+
+.role-about{
+    padding-left: 1%;
+    font-size: 1.6vw;
+    /*color: rgb(232,115,198);*/
+}

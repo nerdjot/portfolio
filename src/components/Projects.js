@@ -1,8 +1,15 @@
 import React from 'react';
-const Projects = () =>{
+import ProjectItem from './ProjectItem';
+import './Projects.css';
+const Projects = (props) =>{
+    const projects = props.projects;
+    const projectList = projects.map((projectItem) => 
+        <ProjectItem key = {projectItem['id']} projectItem = {projectItem} /> );
     return (
-        <div>
-            Projects
+        <div className="section-page">
+            <div className='section-heading'>{"Projects"}</div>
+            {projectList}
+            {/*<div className='section-heading'>{"</experience>"}</div>*/}
         </div>
     ); 
 }

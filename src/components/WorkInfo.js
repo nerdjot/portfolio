@@ -1,13 +1,16 @@
 import React from 'react';
+import { SiGooglecalendar } from "react-icons/si"
 
 const WorkInfo = ({workItem}) =>{
     return (
-        <div>
-            <div>
-                <div>{workItem['role']}</div>
-                <div>{workItem['duration']}</div>
+        <div className = 'work-info'>
+            <div className='role-container'>
+                <div className='role-name'>{workItem['role']}</div>
+                <div className='role-duration'>
+                    <SiGooglecalendar />
+                     {' ' + workItem['duration']}</div>
             </div>
-            <div>{workItem['about']}</div>
+            <div className='role-about'>{workItem['about']}</div>
         </div>
     ); 
 }

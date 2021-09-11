@@ -1,0 +1,71 @@
+.intro-page{
+    height:100vh;
+    width: 100%;
+    transform: translateZ(-10px);
+}
+.intro-hello{
+    font-size: 3vw;
+    position: relative;
+}
+
+.intro-name{
+    font-size: 5vw;
+    position: absolute;
+}
+
+.intro-codefather{
+    background: linear-gradient(to bottom, #FCEF91 9%,rgb(251,219,109) 18%, #E9B244 27%, #E3A342 36%, #E5A644 45%,#EFB84C 54%, #F8D153 63%, #FFEC89 72%,#FCEF91 81%,rgb(251,219,109) 90%, #E9B244 100%); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 15vh;
+    font-family: 'Corleone';
+    line-height: 0.9;
+    transform: translateZ(10px);
+    left:0;
+    right: 0;
+    /*margin-left: auto;
+    margin-right: auto;*/
+    margin: auto;
+    bottom: 5vh;
+    text-align: center;
+    /*margin-left: 35vw;*/
+    position: absolute;
+    animation: fadeInCodeFather 7s;
+}
+
+.intro-puppet{
+    background: linear-gradient(to bottom, #FCEF91 9%,rgb(251,219,109) 18%, #E9B244 27%, #E3A342 36%, #E5A644 45%,#EFB84C 54%, #F8D153 63%, #FFEC89 72%,#FCEF91 81%,rgb(251,219,109) 90%, #E9B244 100%); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 44vh;
+    line-height: 0.6;
+    font-family: 'Corleone';
+}
+
+.intro-image{
+    height: 80vh;
+    position: absolute;
+    left:0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    animation: fadeInImage 7s;
+}
+
+.intro-image-text{
+    position: absolute;
+    height: 100vh;
+    width:100vw;
+    width: 100vw;
+}
+@keyframes fadeInImage {
+    0% {opacity:0;}
+    50% {opacity:0;}
+    100% {opacity:1;}
+  }
+
+@keyframes fadeInCodeFather {
+    0% {opacity:0;}
+    33% {opacity:0;}
+    100% {opacity:1;}
+  }
