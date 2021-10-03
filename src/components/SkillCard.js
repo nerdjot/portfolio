@@ -1,18 +1,13 @@
 import React from 'react';
-import { SiGooglecalendar, SiRubygems } from "react-icons/si"
-import { SiCplusplus, SiCss3, 
-    SiReact, SiPython, 
-    SiJavascript, SiJava
- } from "react-icons/si";
 import Rating from './Rating';
 import SkillProjectList from './SkillProjectList';
 
 const SkillCard = ({skill}) =>{
-    const x = <div>A</div>;
+    const SkillIcon = skill.icon;
     return (
         <div className = 'skill-card'>
             <div className="skill-card-heading">
-                <div className="skill-card-icon"><SiCplusplus></SiCplusplus></div>
+                <div className="skill-card-icon"><SkillIcon></SkillIcon></div>
                 <div className="skill-card-name">{skill.name}</div>
             </div>
             <div className="skill-card-info">

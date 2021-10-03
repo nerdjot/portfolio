@@ -1,3 +1,9 @@
+import { SiCplusplus, SiCss3, 
+    SiReact, SiPython, 
+    SiJavascript, SiJava
+ } from "react-icons/si";
+
+
 const Data = {
     'intro':"Intro",
     'experience': [{
@@ -48,6 +54,7 @@ const Data = {
     'skills':[{
         'id': 1,
         'name':'C++',
+        'icon': SiCplusplus,
         'experience': '2 years',
         'rating':4,
         'outOf':5,
@@ -65,10 +72,91 @@ const Data = {
             'link': 'https://www.google.com/'
         }]
     },{
-        'id': 1,
+        'id': 2,
         'name':'Python',
+        'icon': SiPython,
         'experience': '3 years',
         'rating':4.5,
+        'outOf':5,
+        'projects':[{
+            'name':'Spreadsheet App',
+            'link': 'https://www.google.com/'
+        },{
+            'name': 'Modern IPMSG',
+            'link': 'https://www.google.com/'
+        },{
+            'name':'Spreadsheet App',
+            'link': 'https://www.google.com/'
+        },{
+            'name': 'Modern IPMSG',
+            'link': 'https://www.google.com/'
+        }]
+    },{
+        'id': 3,
+        'name':'React',
+        'icon': SiReact,
+        'experience': '1 years',
+        'rating':4,
+        'outOf':5,
+        'projects':[{
+            'name':'Spreadsheet App',
+            'link': 'https://www.google.com/'
+        },{
+            'name': 'Modern IPMSG',
+            'link': 'https://www.google.com/'
+        },{
+            'name':'Spreadsheet App',
+            'link': 'https://www.google.com/'
+        },{
+            'name': 'Modern IPMSG',
+            'link': 'https://www.google.com/'
+        }]
+    },{
+        'id': 4,
+        'name':'JavaScript',
+        'icon': SiJavascript,
+        'experience': '2 years',
+        'rating':4,
+        'outOf':5,
+        'projects':[{
+            'name':'Spreadsheet App',
+            'link': 'https://www.google.com/'
+        },{
+            'name': 'Modern IPMSG',
+            'link': 'https://www.google.com/'
+        },{
+            'name':'Spreadsheet App',
+            'link': 'https://www.google.com/'
+        },{
+            'name': 'Modern IPMSG',
+            'link': 'https://www.google.com/'
+        }]
+    },{
+        'id': 5,
+        'name':'CSS',
+        'icon': SiCss3,
+        'experience': '3 years',
+        'rating':3,
+        'outOf':5,
+        'projects':[{
+            'name':'Spreadsheet App',
+            'link': 'https://www.google.com/'
+        },{
+            'name': 'Modern IPMSG',
+            'link': 'https://www.google.com/'
+        },{
+            'name':'Spreadsheet App',
+            'link': 'https://www.google.com/'
+        },{
+            'name': 'Modern IPMSG',
+            'link': 'https://www.google.com/'
+        }]
+    },{
+        'id': 6,
+        'name':'Java',
+        'icon': SiJava,
+        'experience': '3 years',
+        'rating':3.5,
         'outOf':5,
         'projects':[{
             'name':'Spreadsheet App',

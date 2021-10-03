@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import './Skills.css';
 import SkillCard from './SkillCard';
+import SkillMenuArray from './SkillMenuArray';
 import { SiCplusplus, SiCss3, 
     SiReact, SiPython, 
     SiJavascript, SiJava
@@ -39,14 +40,7 @@ const Skills = ({skills}) =>{
             </div>
             <div id="half2" className="horizontal-half" >
                 <div id='skill-puppet' unselectable="on" className='intro-puppet'>@</div>
-                <div className="skill-array">
-                    <div className="skill-menu" ><SiCplusplus></SiCplusplus></div>
-                    <div className="skill-menu" ><SiPython></SiPython></div>
-                    <div className="skill-menu" ><SiReact></SiReact></div>
-                    <div className="skill-menu" ><SiJavascript></SiJavascript></div>
-                    <div className="skill-menu" ><SiCss3></SiCss3></div>
-                    <div className="skill-menu" ><SiJava></SiJava></div>
-                </div>
+                <SkillMenuArray skills={skills} setSkillState={setSkillState}skillState = {skillState}></SkillMenuArray>
             </div>
             {}
             {/*<div className='section-heading'>{"</experience>"}</div>*/}

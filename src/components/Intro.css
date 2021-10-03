@@ -55,8 +55,8 @@
 .intro-image-text{
     position: absolute;
     height: 100vh;
-    width:100vw;
-    width: 100vw;
+    width:100%;
+    width: 100%;
 }
 @keyframes fadeInImage {
     0% {opacity:0;}
